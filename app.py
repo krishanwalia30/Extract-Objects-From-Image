@@ -59,7 +59,8 @@ if uploaded_file is not None:
         file.write(uploaded_file.getvalue())
 
     # Detect objects in the uploaded image
-    results, dc = detectObjects.detected_objects('uploaded_file.png')
+    # results, dc = detectObjects.detected_objects('uploaded_file.png')
+    results, dc = detected_objects('uploaded_file.png')
 
     st.write(dc)
 
