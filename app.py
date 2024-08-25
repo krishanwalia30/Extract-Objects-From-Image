@@ -14,6 +14,10 @@ import ultralytics
 from ultralytics import YOLO
 
 model = YOLO('yolov8n.pt')
+sam_checkpoint = "sam_vit_b_01ec64.pth"
+model_type = "vit_b"
+sam = sam_model_registry[model_type](checkpoint=sam_checkpoint)
+predictor = SamPredictor(sam)
 
 def detected_objects(filename:str):
     results = model.predict(source=filename, conf=0.25)
@@ -73,10 +77,10 @@ if uploaded_file is not None:
             boxes = result.boxes
 
         bbox=boxes.xyxy.tolist()[index_of_the_choosen_detected_object]
-        sam_checkpoint = "sam_vit_b_01ec64.pth"
-        model_type = "vit_b"
-        sam = sam_model_registry[model_type](checkpoint=sam_checkpoint)
-        predictor = SamPredictor(sam)
+        # sam_checkpoint = "sam_vit_b_01ec64.pth"
+        # model_type = "vit_b"
+        # sam = sam_model_registry[model_type](checkpoint=sam_checkpoint)
+        # predictor = SamPredictor(sam)
 
         image = cv2.cvtColor(cv2.imread('uploaded_file.png'), cv2.COLOR_BGR2RGB)
         predictor.set_image(image)
