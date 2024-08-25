@@ -114,7 +114,7 @@
 
 matplotlib
 
-opencv-python-headless
+# opencv-python-headless
 # opencv-contrib-python-headless==4.10.0.84
 opencv-contrib-python-headless
 # opencv-python==4.10.0.84
@@ -126,4 +126,4 @@ rembg
 
 streamlit
 
-ultralytics
+ultralytics==8.2.81
