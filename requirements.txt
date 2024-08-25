@@ -6,7 +6,6 @@ cachetools==5.5.0
 certifi==2024.7.4
 charset-normalizer==3.3.2
 click==8.1.7
-colorama @ file:///home/conda/feedstock_root/build_artifacts/colorama_1666700638685/work
 coloredlogs==15.0.1
 comm==0.2.1
 contourpy==1.2.1
