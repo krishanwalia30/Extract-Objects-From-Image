@@ -12,7 +12,7 @@ contourpy==1.2.1
 cycler==0.12.1
 debugpy==1.8.0
 decorator==5.1.1
-exceptiongroup @ file:///home/conda/feedstock_root/build_artifacts/exceptiongroup_1720869315914/work
+# exceptiongroup @ file:///home/conda/feedstock_root/build_artifacts/exceptiongroup_1720869315914/work
 executing==2.0.1
 filelock==3.15.4
 flatbuffers==24.3.25
@@ -23,7 +23,7 @@ GitPython==3.1.43
 humanfriendly==10.0
 idna==3.8
 imageio==2.35.1
-importlib_metadata @ file:///home/conda/feedstock_root/build_artifacts/importlib-metadata_1724187233579/work
+# importlib_metadata @ file:///home/conda/feedstock_root/build_artifacts/importlib-metadata_1724187233579/work
 intel-openmp==2021.4.0
 ipykernel==6.29.0
 ipython==8.20.0
@@ -55,9 +55,9 @@ opencv-python-headless==4.10.0.84
 packaging==23.2
 pandas==2.2.2
 parso==0.8.3
-pickleshare @ file:///home/conda/feedstock_root/build_artifacts/pickleshare_1602536217715/work
+# pickleshare @ file:///home/conda/feedstock_root/build_artifacts/pickleshare_1602536217715/work
 pillow==10.4.0
-platformdirs @ file:///home/conda/feedstock_root/build_artifacts/platformdirs_1715777629804/work
+# platformdirs @ file:///home/conda/feedstock_root/build_artifacts/platformdirs_1715777629804/work
 pooch==1.8.2
 prompt-toolkit==3.0.43
 protobuf==5.27.3
@@ -98,7 +98,7 @@ torchvision==0.18.0
 tornado==6.4
 tqdm==4.66.5
 traitlets==5.14.1
-typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1717802530399/work
+# typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1717802530399/work
 tzdata==2024.1
 ultralytics==8.2.81
 ultralytics-thop==2.0.5
@@ -106,4 +106,4 @@ urllib3==2.2.2
 watchdog==4.0.2
 wcwidth==0.2.13
 wget==3.2
-zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1723591248676/work
+# zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1723591248676/work
