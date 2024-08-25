@@ -1,7 +1,7 @@
 import streamlit as st
 from segment_anything import sam_model_registry, SamAutomaticMaskGenerator, SamPredictor
 # from IPython.display import display, Image
-import cv2
+# import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 from rembg import remove
