@@ -114,6 +114,7 @@
 
 # matplotlib
 flask
+flask_cors
 
 # opencv-python-headless
 # opencv-contrib-python-headless==4.10.0.84
