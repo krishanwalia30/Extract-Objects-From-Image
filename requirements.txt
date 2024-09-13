@@ -112,7 +112,8 @@
 
 # New Requirements.txt file for Deployment
 
-matplotlib
+# matplotlib
+flask
 
 # opencv-python-headless
 # opencv-contrib-python-headless==4.10.0.84
